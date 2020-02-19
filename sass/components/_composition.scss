@@ -12,7 +12,7 @@
         transition: all .2s;
         outline-offset: 2rem; // Ce code permet de crée une margin de taille 2rem entre l'élément lorsque le survol 
 
-
+        // Ici on positionne les photos de façon a ce qu'elle se chevauche
         &--p1{
             left: 0;
             top: -2rem;

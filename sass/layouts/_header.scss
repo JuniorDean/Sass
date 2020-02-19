@@ -3,6 +3,7 @@
     background-image: linear-gradient(to right bottom, rgba($color-primary, 0.048), rgba($color-secondary, 0.562)), url("../img/hero.jpg");
     background-size: cover;
     background-position: top;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 75vh,0 100%); // Destiné au navigateur IE
     clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
     position: relative;
 
