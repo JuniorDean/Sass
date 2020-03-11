@@ -1,7 +1,6 @@
 {
   "name": "projet_perso",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
@@ -13,5 +12,14 @@
   },
   "devDependencies": {
     "node-sass": "^4.13.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuniorDean/Sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuniorDean/Sass/issues"
+  },
+  "homepage": "https://github.com/JuniorDean/Sass#readme",
+  "description": ""
 }
